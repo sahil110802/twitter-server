@@ -1,7 +1,7 @@
 import { ApolloServer } from '@apollo/server';
 import { expressMiddleware } from '@apollo/server/express4';
 import express from 'express';
-import { prismaClient } from '../clients/db';
+// import { prismaClient } from '../clients/db';
 
 
 export async function initServer(){
